@@ -1,12 +1,9 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import Link from 'next/link';
 import Image from 'next/image';
-import { defaultNavItems, NavItem } from './defaultNavItems';
-import {
-    ChevronDoubleLeftIcon,
-    ChevronDoubleRightIcon,
-} from '@heroicons/react/24/outline';
+import {defaultNavItems, NavItem} from './defaultNavItems';
+import {ChevronDoubleLeftIcon, ChevronDoubleRightIcon,} from '@heroicons/react/24/outline';
 
 // add NavItem prop to component prop
 type Props = {
@@ -25,7 +22,7 @@ const Sidebar = ({
     return (
         <div
             className={classNames({
-                'bg-sky-700 text-zinc-50 fixed md:static md:translate-x-0 z-20': true,
+                'bg-slate-900 text-zinc-50 fixed md:static md:translate-x-0 z-20': true,
                 'transition-all duration-300 ease-in-out': true,
                 'w-[300px]': !collapsed,
                 'w-16': collapsed,
@@ -40,12 +37,12 @@ const Sidebar = ({
                 {/* logo and collapse button */}
                 <div
                     className={classNames({
-                        'flex items-center border-b border-b-sky-800 transition-none': true,
+                        'flex items-center border-b border-b-sky-400 transition-none': true,
                         'p-4 justify-between': !collapsed,
                         'py-4 justify-center': collapsed,
                     })}
                 >
-                    {!collapsed && <span className="whitespace-nowrap">TimTech Solutions</span>}
+                    {!collapsed && <span className="whitespace-nowrap">Navigation</span>}
                     <button
                         className="grid place-content-center hover:sky w-10 h-10 rounded-full opacity-0 md:opacity-100"
                         onClick={() => setCollapsed(!collapsed)}

@@ -1,11 +1,5 @@
 import React from "react";
-import {
-    CalendarIcon,
-    FolderIcon,
-    HomeIcon,
-    UserGroupIcon,
-} from "@heroicons/react/24/outline";
-// define a NavItem prop
+import {FolderIcon, HomeIcon, PencilSquareIcon, UserGroupIcon,} from "@heroicons/react/24/outline";
 export type NavItem = {
     label: string;
     href: string;
@@ -30,6 +24,6 @@ export const defaultNavItems: NavItem[] = [
     {
         label: "Blog",
         href: "/blog",
-        icon: <CalendarIcon className="w-6 h-6" />,
+        icon: <PencilSquareIcon className="w-6 h-6" />,
     },
 ];

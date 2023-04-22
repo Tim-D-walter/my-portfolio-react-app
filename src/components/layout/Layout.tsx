@@ -1,9 +1,10 @@
 import classNames from "classnames";
-import React, { PropsWithChildren, useState } from "react";
+import React, {PropsWithChildren, useState} from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
+
 const Layout = (props: PropsWithChildren) => {
-    const [collapsed, setSidebarCollapsed] = useState(false);
+    const [collapsed, setSidebarCollapsed] = useState(true);
     const [showSidebar, setShowSidebar] = useState(true);
     return (
         <div
