@@ -1,11 +1,11 @@
-$hexagon-width: 250px;
+$hexagon-width: 230px;
 $hexagon-height: $hexagon-width*.55;
 $hexagon-margin: 25px;
 $hexagon-title-color: #fff;
 $hexagon-border-color: #fff;
 $hexagon-border-color--hover: #38defb;
 $hexagon-image-color: #3ea0eb;
-$honeycomb-max-width: 1200px;
+$honeycomb-max-width: 1600px;
 $viewport-thereshold: $hexagon-width + $hexagon-margin;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -20,7 +20,6 @@ body {
 }
 
 .honeycomb {
-    overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -65,6 +64,7 @@ body {
 &__image {
      object-fit: cover;
      object-position: center;
+
  }
 
 &::before, &::after {
