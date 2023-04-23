@@ -12,7 +12,7 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #3ea0eb;
+    //background: #3ea0eb;
 }
 
 *, *::before, *::after {
@@ -20,6 +20,7 @@ body {
 }
 
 .honeycomb {
+    overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -27,7 +28,6 @@ body {
     align-items: center;
     max-width: $honeycomb-max-width;
     min-width:300px;
-    margin: 40px;
     padding: 0;
     transform: translateY(#{$hexagon-height/4});
 

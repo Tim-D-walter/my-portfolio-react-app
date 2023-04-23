@@ -16,9 +16,7 @@ const HomePage: NextPage = () => {
                 damping: 40
             }}
         >
-
-            <div className=" h-screen">
-                <div className="wrapper-container">
+            <div className="wrapper-container ">
                     <div className="about-container">
                         <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="study">
@@ -85,8 +83,6 @@ const HomePage: NextPage = () => {
 
                     </div>
                 </div>
-            </div>
-
         </motion.div>
     );
 };

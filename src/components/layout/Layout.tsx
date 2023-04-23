@@ -9,6 +9,7 @@ const Layout = (props: PropsWithChildren) => {
     return (
         <div
             className={classNames({
+                "flex":true,
                 "grid bg-zinc-100 min-h-screen": true,
                 "grid-cols-sidebar": !collapsed,
                 "grid-cols-sidebar-collapsed": collapsed,
