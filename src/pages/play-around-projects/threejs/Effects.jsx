@@ -3,7 +3,7 @@ import { EffectComposer, SSR, Bloom, LUT } from '@react-three/postprocessing'
 import { useControls } from 'leva'
 import { LUTCubeLoader } from 'postprocessing'
 
-export function Effects() {
+export default function Effects() {
     const texture = useLoader(LUTCubeLoader, '/F-6800-STD.cube')
     const { enabled, ...props } = useControls({
         enabled: true,
