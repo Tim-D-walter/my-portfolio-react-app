@@ -11,8 +11,8 @@ const HomePage: NextPage = () => {
       exit={{ x: 300, opacity: 1 }}
       transition={{
         type: "spring",
-        stiffness: 260,
-        damping: 40,
+        stiffness: 230,
+        damping: 30,
       }}
     >
       <div className="wrapper-container ">

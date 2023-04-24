@@ -13,8 +13,8 @@ export default function Home() {
       exit={{ x: 300, opacity: 0 }}
       transition={{
         type: "spring",
-        stiffness: 260,
-        damping: 40,
+        stiffness: 230,
+        damping: 30,
       }}
     >
       <main className={`wrapper-container ${inter.className}`}>

@@ -13,8 +13,8 @@ export default function Home() {
       exit={{ x: 300, opacity: 0 }}
       transition={{
         type: "spring",
-        stiffness: 260,
-        damping: 40,
+        stiffness: 230,
+        damping: 30,
       }}
     >
       <main
@@ -23,7 +23,7 @@ export default function Home() {
         <div className="about-container">
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <ul className="honeycomb wrapper-container" lang="es">
-              <Link href="/play-around-projects/threejs" className={"flex-auto"}/>
+              <Link href="/play-around-projects/threejs" className={"flex-auto"}>
               <li className="honeycomb-cell">
                 <Image
                   className="honeycomb-cell__image"
@@ -34,6 +34,7 @@ export default function Home() {
                 />
                 <div className="honeycomb-cell__title">ThreeJs Play-around</div>
               </li>
+              </Link>
 
               <li className="honeycomb-cell flex-auto">
                 <Image
