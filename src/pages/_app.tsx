@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Layout from "@/components/layout/Layout";
 import "src/styles/honeycomb.scss";
 import "src/styles/desk-animation.css";
+import 'src/styles/styles.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
