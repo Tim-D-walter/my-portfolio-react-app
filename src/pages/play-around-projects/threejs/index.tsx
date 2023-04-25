@@ -1,8 +1,6 @@
 import {motion} from "framer-motion";
 import {Inter} from "next/font/google";
 import React, { useRef, useState } from 'react'
-import CreateRoot from "./CreateRoot"
-import {createRoot} from "react-dom/client";
 import App from "@/pages/play-around-projects/threejs/App";
 import {Stats} from "@react-three/drei";
 import {Leva} from "leva";
