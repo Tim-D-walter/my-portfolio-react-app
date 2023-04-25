@@ -24,28 +24,30 @@ export default function Home() {
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <ul className="honeycomb wrapper-container" lang="es">
               <Link href="/play-around-projects/threejs" className={"flex-auto"}>
-              <li className="honeycomb-cell">
-                <Image
-                  className="honeycomb-cell__image"
-                  src="/Darth_Vader.png"
-                  width={500}
-                  height={500}
-                  alt="ThreeJs Play-around"
-                />
-                <div className="honeycomb-cell__title">ThreeJs Play-around</div>
-              </li>
+                <li className="honeycomb-cell">
+                  <Image
+                    className="honeycomb-cell__image"
+                    src="/Darth_Vader.png"
+                    width={500}
+                    height={500}
+                    alt="ThreeJs Play-around"
+                  />
+                  <div className="honeycomb-cell__title">ThreeJs Play-around</div>
+                </li>
               </Link>
 
-              <li className="honeycomb-cell flex-auto">
-                <Image
-                  className="honeycomb-cell__image"
-                  src="/SH-Beach.png"
-                  width={500}
-                  height={500}
-                  alt="SH-Beach"
-                />
-                <div className="honeycomb-cell__title flex-auto">SH-Beach</div>
-              </li>
+              <Link href="/play-around-projects/threejs" className={"flex-auto"}>
+                <li className="honeycomb-cell flex-auto">
+                  <Image
+                    className="honeycomb-cell__image"
+                    src="/SH-Beach.png"
+                    width={500}
+                    height={500}
+                    alt="SH-Beach"
+                  />
+                  <div className="honeycomb-cell__title flex-auto">SH-Beach</div>
+                </li>
+              </Link>
 
               <a href="https://example.com/LH-Leap" className={"flex-auto"}>
               <li className="honeycomb-cell">
