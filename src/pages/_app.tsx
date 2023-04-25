@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout";
 import "src/styles/honeycomb.scss";
 import "src/styles/desk-animation.css";
 import 'src/styles/styles.css'
+import 'src/styles/introduction-font.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

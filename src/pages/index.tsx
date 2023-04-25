@@ -305,40 +305,25 @@ const HomePage: NextPage = () => {
               </g>
             </g>
           </svg>
-          <div className="about-text-container">
-            <h1>Welcome to TimTech Solutions!</h1>
-            <p>
-              My name is Tim Daniel Walter and I am a software developer,
-              cloud-architect and consultant with years of experience as a
-              Tech-Lead and Java Developer. I have worked on numerous projects
-              in the software industry, ranging from small startups to large
-              enterprises.
-            </p>
-            <p>
-              At TimTech Solutions, we specialize in providing top-notch
-              software development, cloud architecture and consulting services
-              to our clients. Our team is composed of highly skilled and
-              experienced professionals who are passionate about delivering
-              quality work and ensuring client satisfaction.
-            </p>
-            <p>Our services include but are not limited to:</p>
-            <ul>
-              <li>Software development</li>
-              <li>Cloud architecture</li>
-              <li>Consulting</li>
-              <li>Project management</li>
-            </ul>
-            <p>
-              We pride ourselves on our ability to work closely with clients to
-              understand their needs and deliver customized solutions that meet
-              their specific requirements. Our goal is to help our clients
-              succeed by providing them with the technical expertise and support
-              they need to achieve their business objectives.
-            </p>
-            <p>
-              Contact us today to learn more about how we can help you achieve
-              your goals!
-            </p>
+          <div className="about-text-container introduction-font">
+            <h1>About Me - Tim Daniel Walter</h1>
+            <p>Hello, my name is <span className="name">Tim Daniel Walter</span>, and I am a software developer,
+              cloud-architect and consultant with years of experience in leading technology teams and developing Java
+              applications.</p>
+            <p>I have always had a passion for technology and programming and I have worked hard to develop my skills
+              and expertise in this field. Over the years, I have had the opportunity to work on a wide range of
+              projects, from small-scale applications to large-scale enterprise systems. This has allowed me to tackle
+              complex technological challenges and find innovative solutions to meet the needs of my clients.</p>
+            <p>As a Tech-Lead, I have had the pleasure of mentoring and coaching developers, helping them to improve
+              their technical skills and grow their careers. As a consultant, I have had the opportunity to work with
+              clients in various industries, providing valuable insights and solutions to help them achieve their
+              business goals.</p>
+            <p>With my passion for programming and my years of experience in the field, I decided to start my own
+              company, which specializes in providing software development and consulting services to businesses. My
+              team and I work tirelessly to deliver projects on time and on budget while exceeding our clients'
+              expectations.</p>
+            <p>If you're looking for a reliable and experienced software developer, cloud-architect, or consultant,
+              please don't hesitate to reach out to me.</p>
             <a href="https://www.linkedin.com/in/tim-d-walter/" className="btn">
               Click here to get in touch
             </a>
