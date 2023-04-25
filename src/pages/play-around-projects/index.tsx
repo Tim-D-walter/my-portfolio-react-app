@@ -23,8 +23,9 @@ export default function Home() {
         <div className="about-container">
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <ul className="honeycomb wrapper-container" lang="es">
-              <Link href="/play-around-projects/threejs" className={"flex-auto"}>
+
                 <li className="honeycomb-cell">
+                  <Link href="/play-around-projects/threejs" className={"flex-auto"}>
                   <Image
                     className="honeycomb-cell__image"
                     src="/Darth_Vader.png"
@@ -33,11 +34,13 @@ export default function Home() {
                     alt="ThreeJs Play-around"
                   />
                   <div className="honeycomb-cell__title">ThreeJs Play-around</div>
+                  </Link>
                 </li>
-              </Link>
 
-              <Link href="/play-around-projects/threejs" className={"flex-auto"}>
+
+
                 <li className="honeycomb-cell flex-auto">
+                  <Link href="https://example.com/SH-Beach" className={"flex-auto"} >
                   <Image
                     className="honeycomb-cell__image"
                     src="/SH-Beach.png"
@@ -46,11 +49,11 @@ export default function Home() {
                     alt="SH-Beach"
                   />
                   <div className="honeycomb-cell__title flex-auto">SH-Beach</div>
+                  </Link>
                 </li>
-              </Link>
 
-              <a href="https://example.com/LH-Leap" className={"flex-auto"}>
               <li className="honeycomb-cell">
+                <Link href="https://example.com/DigitalAristoteles" className={"flex-auto"} >
                 <Image
                   className="honeycomb-cell__image"
                   src="/Digital_Aristoteles.png"
@@ -59,11 +62,11 @@ export default function Home() {
                   alt="Digital Aristoteles"
                 />
                 <div className="honeycomb-cell__title">Digital Aristoteles</div>
+                </Link>
               </li>
-              </a>
-              <a href="https://example.com/LH-Leap" className={"flex-auto"}>
-              <li className="honeycomb-cell">
 
+              <li className="honeycomb-cell">
+                <Link href="https://example.com/LH-Leap" className={"flex-auto"} >
                 <Image
                   className="honeycomb-cell__image"
                   src="/Lh-leap.png"
@@ -73,10 +76,11 @@ export default function Home() {
                 />
 
                 <div className="honeycomb-cell__title">LH-Leap</div>
-
+                </Link>
               </li>
-              </a>
+
               <li className="honeycomb-cell">
+                <Link href="https://example.com/coming-up-soon" className={"flex-auto"} >
                 <Image
                   className="honeycomb-cell__image"
                   src="/Not_Found.png"
@@ -85,10 +89,12 @@ export default function Home() {
                   alt="Polygon Pipeline"
                 />
                 <div className="honeycomb-cell__title">
-                  In Progress...<small>Coming up soon...</small>
+                  In Progress<small>Coming up soon</small>
                 </div>
+                </Link>
               </li>
               <li className="honeycomb-cell">
+                <Link href="https://example.com/coming-up-soon" className={"flex-auto"} >
                 <Image
                   className="honeycomb-cell__image"
                   src="/Not_Found.png"
@@ -97,10 +103,12 @@ export default function Home() {
                   alt="In Progress"
                 />
                 <div className="honeycomb-cell__title">
-                  In Progress...<small>Wait for it...</small>
+                  In Progress<small>Wait for it</small>
                 </div>
+                </Link>
               </li>
               <li className="honeycomb-cell">
+                <Link href="https://example.com/coming-up-soon" className={"flex-auto"} >
                 <Image
                   className="honeycomb-cell__image"
                   src="/Not_Found.png"
@@ -109,8 +117,9 @@ export default function Home() {
                   alt="In Progress"
                 />
                 <div className="honeycomb-cell__title">
-                  In Progress...<small>Just a second...</small>
+                  In Progress<small>Just a second...</small>
                 </div>
+                </Link>
               </li>
               <li className="honeycomb-cell honeycomb__placeholder"></li>
             </ul>
