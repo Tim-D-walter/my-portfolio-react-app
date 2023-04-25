@@ -320,10 +320,10 @@ const HomePage: NextPage = () => {
               business goals.</p>
             <p>With my passion for programming and my years of experience in the field, I decided to start my own
               company, which specializes in providing software development and consulting services to businesses. My
-              team and I work tirelessly to deliver projects on time and on budget while exceeding our clients'
+              team and I work tirelessly to deliver projects on time and on budget while exceeding our clients´
               expectations.</p>
-            <p>If you're looking for a reliable and experienced software developer, cloud-architect, or consultant,
-              please don't hesitate to reach out to me.</p>
+            <p>If you are looking for a reliable and experienced software developer, cloud-architect, or consultant,
+              please do not hesitate to reach out to me.</p>
             <a href="https://www.linkedin.com/in/tim-d-walter/" className="btn">
               Click here to get in touch
             </a>
