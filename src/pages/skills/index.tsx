@@ -109,6 +109,12 @@ export default function Home() {
                   <li>Openshift Pipelines</li>
                   <li>AzureDevOps</li>
                   <li>NextJS</li>
+                  <li>Quarkus</li>
+                  <li>Flyway</li>
+                  <li>Hibernate</li>
+                  <li>Postgresql</li>
+                  <li>Schema based Multi-Tenancy</li>
+                  <li>Database based Multi-Tenancy</li>
                 </ul>
               </div>
             </div>
