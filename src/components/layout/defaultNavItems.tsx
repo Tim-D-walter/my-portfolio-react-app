@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  CommandLineIcon,
   FolderIcon,
   HomeIcon,
   PencilSquareIcon,
@@ -30,5 +31,10 @@ export const defaultNavItems: NavItem[] = [
     label: "Blog",
     href: "/blog",
     icon: <PencilSquareIcon className="w-6 h-6" />,
+  },
+  {
+    label: "Skills",
+    href: "/skills",
+    icon: <CommandLineIcon className="w-6 h-6" />,
   },
 ];

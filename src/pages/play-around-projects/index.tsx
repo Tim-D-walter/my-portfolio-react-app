@@ -32,12 +32,11 @@ export default function Home() {
                     width={500}
                     height={500}
                     alt="ThreeJs Play-around"
+                    priority
                   />
                   <div className="honeycomb-cell__title">ThreeJs Play-around</div>
                   </Link>
                 </li>
-
-
 
                 <li className="honeycomb-cell flex-auto">
                   <Link href="https://example.com/SH-Beach" className={"flex-auto"} >
@@ -47,6 +46,7 @@ export default function Home() {
                     width={500}
                     height={500}
                     alt="SH-Beach"
+                    priority
                   />
                   <div className="honeycomb-cell__title flex-auto">SH-Beach</div>
                   </Link>
@@ -60,6 +60,7 @@ export default function Home() {
                   width={500}
                   height={500}
                   alt="Digital Aristoteles"
+                  priority
                 />
                 <div className="honeycomb-cell__title">Digital Aristoteles</div>
                 </Link>
@@ -87,6 +88,7 @@ export default function Home() {
                   width={500}
                   height={500}
                   alt="Polygon Pipeline"
+                  priority
                 />
                 <div className="honeycomb-cell__title">
                   In Progress<small>Coming up soon</small>
@@ -101,6 +103,7 @@ export default function Home() {
                   width={500}
                   height={500}
                   alt="In Progress"
+                  priority
                 />
                 <div className="honeycomb-cell__title">
                   In Progress<small>Wait for it</small>
@@ -115,6 +118,7 @@ export default function Home() {
                   width={500}
                   height={500}
                   alt="In Progress"
+                  priority
                 />
                 <div className="honeycomb-cell__title">
                   In Progress<small>Just a second...</small>
