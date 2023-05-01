@@ -33,7 +33,7 @@
 .wrapper-container{
     margin: auto auto auto auto;
     align-items: center;
-    min-width: 350px;
+    min-width: 90vw;
 }
 
 /* media query for smaller screens, such as mobile phones */
